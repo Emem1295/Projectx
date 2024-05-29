@@ -1,0 +1,88 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.search-container {
+    flex: 1;
+    text-align: center;
+}
+
+.search-container input {
+    padding: 5px;
+    width: 60%;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons a {
+    margin-left: 10px;
+}
+
+.icons img {
+    width: 24px;
+    height: 24px;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.video-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.video-description {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.content-section {
+    flex: 1;
+}
