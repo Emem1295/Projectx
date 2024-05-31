@@ -3,14 +3,14 @@ body, html {
     margin: 0;
     padding: 0;
 }
-
+/*Groups the signup form together*/
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
-
+/*styles the form*/
 .form {
     background-color: #fff;
     padding: 20px;
@@ -28,7 +28,7 @@ input[type="password"] {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
+/*Button*/
 input[type="submit"] {
     width: 100%;
     padding: 10px;
